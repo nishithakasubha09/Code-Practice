@@ -1,8 +1,7 @@
-let radius = 5
-function calculateArea(radius){
-    
-    var area = radius * radius * 3.14;
-    return area;
-
+function main(age) {
+    if (age > 18) {
+        console.log("You are an adult.");
+    } else {
+        console.log("You are a minor.");
+    }
 }
-console.log(calculateArea(radius));
