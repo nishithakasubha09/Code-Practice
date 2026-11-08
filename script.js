@@ -20,12 +20,27 @@
 // 4
 // 6
 
-function main(arr) {
+// function main(arr) {
 
-    let arr = [1, 2, 3]
+//     let arr = [1, 2, 3]
 
-    for (let i = 0; i < arr.length; i++){
-    console.log(arr[i]*2)
-    }
+//     for (let i = 0; i < arr.length; i++){
+//     console.log(arr[i]*2)
+//     }
 
+// }
+main();
+function main() {
+
+    let book = {
+        title: "The Great Gatsby",
+        author: "F. Scott Fitzgerald",
+        publishedYear: "1925"
+    };
+
+    console.log(`${book.title} by ${book.author} was published in ${book.publishedYear}`)
+    
+    
 }
+
+
